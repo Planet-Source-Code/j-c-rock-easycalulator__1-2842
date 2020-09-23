@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\visualstudio\MSVS98\VB98\easy calc\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\visualstudio\msvs98\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\easycalc.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\REDIST\COMCAT.DLL=No
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\SETUP.EXE=Yes
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\easycalc.exe=$(AppPath)
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\SETUP.EXE=$(AppPath)
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\visualstudio\MSVS98\VB98\WIZARDS\PDWIZARD\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\easycalc.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=EasyCalc
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=EasySoftware
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|EasySoftware]
+Icon1=easycalc.exe
+Title1=EasyCalc
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\visualstudio\MSVS98\VB98\easy calc\Package
+ProjectFolder=C:\visualstudio\MSVS98\VB98\easy calc
+ServerSideCab=
+File1=C:\visualstudio\MSVS98\VB98\easy calc\Package\setup.exe
+File2=C:\visualstudio\MSVS98\VB98\easy calc\Package\Setup.Lst
+File3=C:\visualstudio\MSVS98\VB98\easy calc\Package\easycalc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
